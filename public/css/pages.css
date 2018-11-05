@@ -1,0 +1,142 @@
+/*small navigation */
+
+@media screen and (max-width: 575px) { 
+.links{
+  width: 250px;
+  margin: 0 auto;
+}
+}
+
+/*-------small Pages i.e pages with logo on the left----*/
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666666;
+    background: #fff; 
+    overflow-x: hidden;
+  }
+  .bg-img{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .leftSide-content h1{
+    position: absolute;
+    top: 10vh;
+    left: 3vw;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .rightSide-bgColor{
+    background-color:white;
+  }
+  
+  .rightSide-content-links{
+    margin-top: 5px;
+  }
+
+  .rightSide-content-links ul{
+    list-style-type: none;
+  }
+  
+  .rightSide-content-links a{
+    text-decoration: none;
+    color: #ffbf56;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .rightSide-content-links a:hover{
+    color:blue;
+  }
+  
+  .rightSide-content{
+    background-color: #ffffff;
+    color: #61371b;
+    padding-left: 25px;
+  }
+  
+  /*---------Large Pages i.e pages with links on the left------------*/
+
+  /*--------- start gallery Area -------------*/
+.team-area .single-team {
+  padding: 10px;
+}
+
+.team-area .thumb {
+  position: relative;
+}
+
+.team-area .thumb .social-links {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.team-area .thumb .social-links a {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 32px;
+  display: inline-block;
+  padding: 4px 0px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.team-area .thumb .social-links a:hover {
+  background: #fff;
+  color: #69be00;
+}
+
+.team-area .thumb div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.team-area .thumb img {
+  display: block;
+  width: 100%;
+}
+
+.team-area .thumb div span {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.team-area .thumb div p, .team-area .thumb div h4 {
+  display: block;
+  position: absolute;
+  padding-left: 18%;
+  bottom: 30px;
+}
+
+.team-area .thumb div h4 {
+  bottom: 75px;
+  color: #fff;
+}
+
+.team-area .thumb:hover div {
+  background-color: rgb(44, 121, 98);
+  opacity: .65;
+  cursor: pointer;
+}
+
+
+/*--------- end gallery area  -----------*/
